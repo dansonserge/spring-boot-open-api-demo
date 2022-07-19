@@ -1,6 +1,6 @@
-package com.oneoonecode.swaggercrashcourse.controllers;
+package com.sergedanson.swaggercrashcourse.controllers;
 
-import com.oneoonecode.swaggercrashcourse.models.ToDoItem;
+import com.sergedanson.swaggercrashcourse.models.ToDoItem;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -12,4 +12,4 @@ public class CreateToDoItem {
         public ResponseEntity<Object> createToDoItem(@RequestBody ToDoItem toDoItem) {
                 return ResponseEntity.ok().body(toDoItem);
         }
-        }
+}

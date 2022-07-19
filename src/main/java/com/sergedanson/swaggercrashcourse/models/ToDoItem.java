@@ -1,4 +1,4 @@
-package com.oneoonecode.swaggercrashcourse.models;
+package com.sergedanson.swaggercrashcourse.models;
 
 public class ToDoItem {
     private String itemId;

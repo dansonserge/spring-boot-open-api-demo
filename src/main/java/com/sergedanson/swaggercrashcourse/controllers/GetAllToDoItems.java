@@ -1,6 +1,6 @@
-package com.oneoonecode.swaggercrashcourse.controllers;
+package com.sergedanson.swaggercrashcourse.controllers;
 
-import com.oneoonecode.swaggercrashcourse.models.ToDoItem;
+import com.sergedanson.swaggercrashcourse.models.ToDoItem;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
